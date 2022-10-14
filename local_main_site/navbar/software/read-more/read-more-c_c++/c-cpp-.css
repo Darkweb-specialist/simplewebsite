@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Rubik+Dirt&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik Dirt', cursive;
+
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    margin-top: 10vh;
+    margin-left: 5vh;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    width: 15%;
+    text-align: center;
+    height: auto;
+    display: inline-block;
+
+}
+
+.container:hover {
+    background-color: black;
+    color: rgba(4, 251, 4, 0.935);
+}
+
+.btn {
+    font-size: larger;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 3px;
+}
+.btn:hover{
+    text-decoration-line:overline underline ;
+    color:rgba(4, 251, 4, 0.935) ;
+}

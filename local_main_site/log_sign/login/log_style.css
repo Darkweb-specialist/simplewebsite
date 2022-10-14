@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+
+    font-family: sans-serif;
+
+
+
+}
+
+.loginbox {
+    width: 320px;
+    height: 420px;
+    background: rgba(13, 143, 236, 0.164);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avartar {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: 7em;
+
+
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox button {
+    width: 100%;
+    margin-bottom: 18px;
+    margin-top: 17px;
+}
+
+.in1 {
+    border: none;
+    border-bottom: 1px solid rgba(0, 162, 255, 0.823);
+    background: transparent;
+    color: #fff;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+}
+
+.in2 {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox button[type="button"]:hover {
+    cursor: pointer;
+    background: #07a0ffe4;
+    color: #000;
+}
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.back_video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+@media (min-aspect-ratio:16/9) {
+    .back_video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    .back_video {
+        width: auto;
+        height: 100%;
+    }
+}

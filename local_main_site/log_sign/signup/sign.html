@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" type="text/css" href="sign_style.css">
+    <link rel="shortcut icon" href="../../images/favicon/favicon.ico" type="image/x-icon">
+    <script src="sign_js.js"></script>
+</head>
+
+<body>
+    <video autoplay loop muted plays-inline class="back_video">
+        <source src="../../video/Underwater loop background..mp4" type="video/mp4">
+    </video>
+    <div class="signup">
+        <img src="../../images/log_image.webp" alt="not found" class="avartar">
+        <h1>Sign Up Here</h1>
+        <p>First Name</p>
+        <input class="ex1" type="text" placeholder="Enter your name">
+        <p>Last Name</p>
+        <input class="ex2" type="text" placeholder="Enter your last name">
+        <p>Password</p>
+        <input class="ex3" type="password" placeholder="Enter your password"><br>
+        <span>
+            <input class="ex4" type="checkbox"> You Agree the <u>Terms and Conditions </u></span>
+
+        <button class="ex5" type="button" onclick="openPopup()">Sign up</button>
+        <div class="popup" id="popup">
+            <img src="../../images/popup_image2.png">
+            <h2>Thank You!</h2>
+            <p>Your details has been successfully submitted. Thanks!</p>
+            <button class="button" type="button" onclick="closePopup()">Ok</button>
+        </div>
+
+        <p>You have an account <a href="../../log_sign/login/log.html" class="login">Login Here</a></p>
+    </div>
+    <script>
+        let popup = document.getElementById("popup");
+
+        function openPopup() {
+            popup.classList.add("open-popup")
+        }
+
+        function closePopup() {
+            popup.classList.remove("open-popup")
+        }
+    </script>
+</body>
+
+</html>
